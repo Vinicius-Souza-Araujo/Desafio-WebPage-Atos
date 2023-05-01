@@ -1,0 +1,156 @@
+#box-contato{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    padding-bottom: 200px;
+    
+    
+}
+
+#contato-parte-1{
+    width: 30vw;
+   
+    background-color: #74CD7D;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+
+
+#contato-parte-2{
+    width: 30vw;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: #74CD7D;
+    font-family: "Inter";
+    font-weight: bold;
+}
+input, textarea{
+    margin-bottom: 20px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 240px;
+}
+
+button{
+    background-color: #74CD7D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+button:hover{
+    background-color: #000000;
+    color: #85C950;
+}
+
+#gato-contato{
+    width: 25vw;
+    
+    
+    
+}
+
+#titulo-contato{
+    font-family: "Bebas Neue";
+    color: #FFF9F9;
+    font-size: 3.5em;
+    width: 250px;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+
+#contato-parte-2 h1{
+    font-family: "Bebas Neue";
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
+    color: #267733;
+    
+}
+
+
+#box-titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+table{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    
+    
+}
+td{
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.td-verde{
+    background-color: #85C950;
+    color: #FFFFFF;
+}
+
+.td-cinza{
+    background-color: #EAEAEA;
+    
+    
+}
+
+
+@media (max-width: 860px){
+ 
+    #box-contato{
+        padding: 0px;
+    }
+
+    #contato-parte-1{
+        display: none;
+    }
+
+    #contato-parte-2{
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFFFFF;
+    }
+
+    #contato-parte-2 h1{
+        display: block;
+    }
+
+    label{
+        color: #267733;
+    }
+    
+  button{
+    background-color: #267733;
+  }
+
+}

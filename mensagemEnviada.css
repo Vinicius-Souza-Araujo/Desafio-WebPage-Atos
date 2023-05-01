@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Bebas Neue";
+    flex-direction: column;
+}
+
+h1{
+    border-bottom: solid 5px #267733;
+    margin-bottom: 20px;
+}
+
+a{
+    background-color:  #267733;
+    padding: 5px;
+    border-radius: 10px;
+ 
+}
+
+a:hover{
+    background-color: #000000;
+    color: #85C950;
+}

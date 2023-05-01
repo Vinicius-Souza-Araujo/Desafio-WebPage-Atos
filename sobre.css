@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+h1{
+    font-family: "Bebas Neue";
+    color: #267733;
+    
+}
+
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+}
+.box-conteudo{
+    padding: 10px;
+    font-size: 18px;
+ 
+}
+
+.box-conteudo h1{
+    border-bottom:solid 4px #8DEA44;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+#img-cachorro{
+    background-color: #8DEA44;
+    padding: 20px;
+    width: 100px;
+    border-radius: 40px;
+}
+
+li{
+    font-family: "Inter";
+    margin-bottom: 40px;
+    font-size: 18px;
+   
+}
+
+#box-vantagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#box-vantagens h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+
+#vantagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+#cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+}
+
+.card{
+    background-color: #74CD7D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 175px;
+}
+
+.card h1{
+    margin-top: 10px;
+    color: #D1F6B4;
+    font-weight: 100;
+}
+
+.icone{
+    width: 50px;
+}
